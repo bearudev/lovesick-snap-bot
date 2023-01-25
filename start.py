@@ -1,6 +1,7 @@
-
+#Lovesick Snap Bot
+#Made by LovesickDev - 2023
+#Based on marvel-snap-bot by Adria Gual
 from thirdeye import *
 
-
-scrn = ss(connect_to_bluestacks())
-print(read(scrn, (0, 0, 900, 400)))
+ss(connect_to_bluestacks())
+print(where_are_we())
